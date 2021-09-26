@@ -69,4 +69,6 @@ ul.posts li {
     color:#028;
 }
 
-.popMsg{ float:left; }
+ div.topMsg { float:left; }
+ div.popMsg { float:right; }
+ div.footer { clear:both; }
