@@ -42,6 +42,11 @@ ul.posts li {
     list-style: none;
 }
 
+img.resize {
+    width:540px; /* you can use % */
+    height: auto;
+}
+
 .topMsg{
 
     width:400px;
