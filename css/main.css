@@ -47,17 +47,12 @@ ul.posts li {
   padding: 10px;
 }
 
-.left {
-  width: 75%;
+.row {
+  display: flex;
 }
 
-.right {
-  width: 25%;
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 25%;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
