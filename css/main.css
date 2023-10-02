@@ -13,8 +13,7 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 a {
-    text-decoration: underline;
-    color: SteelBlue;
+    color: CornflowerBlue;
 }
 a:hover {
     text-decoration: underline;
