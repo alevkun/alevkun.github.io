@@ -15,6 +15,9 @@ nav ul li, footer ul li {
 a {
     color: CornflowerBlue;
 }
+a:hover {
+    text-decoration: underline;
+}
 h1 {
     font-size: 3em;
     font-family: 'Georgia', 'Helvetica', 'Arial';
