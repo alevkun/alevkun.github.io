@@ -1,1 +1,87 @@
-to be modified
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 70%;
+  padding: 0 15px;
+}
+
+.left {
+  background-color: #FFFAFA;
+  float: left;
+  width: 30%;
+  padding: 15px;
+  margin-top: 0px;
+  text-align: right;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .left, .main {
+    width: 100%;
+  }
+  .left p{
+  	text-align:center;
+  }
+  .left h2{
+  	text-align:center;
+  }
+}
+</style>
+</head>
+<body style="font-family:Georgia;color:#000000;">
+
+<!-- <div style="background-color:#FFFAFA;padding:6px;text-align:center;">
+  <h1>Aleksandr Levkun</h1>
+  <h2>Assistant  </h2>
+</div> -->
+
+<!-- <div style="overflow:auto">
+  <div class="menu">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+  </div> -->
+
+  <div class="left">
+    <img src="https://alevkun.github.io/assets/picture.jpg" style="max-width:100%;height:auto;">
+    <h2 style="color: CornflowerBlue;">Aleksandr Levkun</h2>
+    <p> Assistant Professor <br> 
+    Department of Economics <br> 
+    WU Vienna </p>
+    <p> <a href="https://alevkun.github.io/assets/pdf/cv_levkun.pdf">CV</a> <br> <a href="https://alevkun.github.io/assets/pdf/research_levkun.pdf" style="text-decoration:none;">Research Statement</a> </p> 
+  </div>
+  <div class="main">
+    <p>Welcome to my website! I am an Assistant Professor of Economics at the WU Vienna University of Economics and Business. I am an economic theorist specializing in information economics.</p>
+	<p>Prior to joining WU, I was a Visiting Assistant Professor at the Bilkent University. I received my Ph.D. from the <a href="https://economics.ucsd.edu/" style="text-decoration:none;">Economics Department</a> at 
+	    the <a href="https://www.ucsd.edu/" style="text-decoration:none;">University of California San Diego</a> in 2022. </p>
+    <p> You can find my papers <a href="https://alevkun.github.io/research/">here</a>.
+</div>
+
+<!-- <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div> -->
+
+</body>
+</html>
