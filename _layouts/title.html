@@ -37,6 +37,10 @@
   text-align: right;
 }
 
+.hidden{
+  display: none;
+}
+
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
   .left, .main {
@@ -87,6 +91,13 @@ p {
 <body style="font-family:Georgia;color:#000000;">
 
   {{ content }}
+
+  <script>
+     function showhide() {
+       var div = document.getElementById("newpost");
+       div.classList.toggle('hidden'); 
+     }
+  </script>
 
 </body>
 </html>
