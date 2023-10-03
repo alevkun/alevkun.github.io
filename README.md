@@ -11,3 +11,5 @@ Simplified descriptions of papers? Maybe most important plots?
 Better description
 
 Optimization for mobile -> coloring, buttons, etc.
+
+Google analytics: proper implementation
