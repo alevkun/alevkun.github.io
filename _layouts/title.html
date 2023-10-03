@@ -37,6 +37,10 @@
   text-align: right;
 }
 
+.button {
+  border: none;
+}
+  
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
   .left, .main {
@@ -81,12 +85,32 @@ p {
 }
 <!-- line-height: 1.4em; -->
 
+#more {display: none;}
+
 </style>
 </head>
 
 <body style="font-family:Georgia;color:#000000;">
 
   {{ content }}
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
 
 </body>
 </html>
