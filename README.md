@@ -2,8 +2,12 @@
 
 TODO:
 
-Color for name and paper titles -> darker version of CornflowerBlue 
+Icons for CV, email, moving objects (abstract show and hide), external sources
 
-Icons for CV + email (also add the icon for moving objects, e.g., Abstract 
+Hovers for links
 
-Create first block structure for the published paper
+Simplified descriptions of papers? Maybe most important plots?
+
+Better description
+
+Optimization for mobile -> coloring, buttons, etc.
