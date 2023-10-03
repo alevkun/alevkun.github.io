@@ -40,7 +40,12 @@
 .button {
   border: none;
 }
-  
+
+.button1{
+  	background-color:#8C6D09;
+   	color:#FFF;    	
+}
+
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
   .left, .main {
@@ -85,7 +90,10 @@ p {
 }
 <!-- line-height: 1.4em; -->
 
-#more {display: none;}
+#paragraph
+{
+  display:none;
+}
 
 </style>
 </head>
@@ -95,20 +103,9 @@ p {
   {{ content }}
 
 <script>
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Abstract"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Hide abstract"; 
-    moreText.style.display = "inline";
-  }
+function displayAbstract() {
+  var p = document.getElementById("paragraph");
+  p.style.display = "block";  	 
 }
 </script>
 
