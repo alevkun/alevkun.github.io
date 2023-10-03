@@ -108,8 +108,20 @@ p {
   {{ content }}
 
   <script>
-     function showhide() {
-       var td = document.getElementById("newpost");
+     function showhidewp1() {
+       var td = document.getElementById("newpostwp1");
+       td.classList.toggle('hidden'); 
+     }
+     function showhidewp2() {
+       var td = document.getElementById("newpostwp2");
+       td.classList.toggle('hidden'); 
+     }
+    function showhidewpr1() {
+       var td = document.getElementById("newpostwpr1");
+       td.classList.toggle('hidden'); 
+     }
+     function showhidepub1() {
+       var td = document.getElementById("newpostpub1");
        td.classList.toggle('hidden'); 
      }
   </script>
